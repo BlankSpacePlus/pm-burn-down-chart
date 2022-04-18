@@ -26,8 +26,8 @@ plt.title('燃尽图')
 plt.xlabel('日期')
 plt.ylabel('工作量')
 
-plt.plot(x, y2, linewidth=3)
-plt.plot(x, y1, linewidth=3)
+plt.plot(x, y1, linewidth=5)
+plt.plot(x, y2, linewidth=5)
 
 plt.yticks(y_ticks)
 plt.xticks(x_ticks, rotation=60)
